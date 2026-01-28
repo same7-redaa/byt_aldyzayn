@@ -32,10 +32,16 @@ const GypsumService: React.FC<ServiceProps> = ({ onBack, lang }) => {
                     </button>
                     <h1 className="text-4xl md:text-6xl font-black mb-4">{t.title}</h1>
                     <p className="text-xl md:text-2xl text-gray-200 mb-8">{t.subtitle}</p>
-                    <a href="https://wa.me/971566636483" className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#128c7e] text-white px-8 py-3 rounded-full text-lg font-bold transition-all hover:scale-105 shadow-xl">
-                        <i className="fa-brands fa-whatsapp text-2xl"></i>
-                        {lang === 'ar' ? 'تواصل معنا الآن' : 'Contact Us Now'}
-                    </a>
+                    <div className="flex flex-wrap gap-4">
+                        <a href="https://wa.me/971566636483" className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#128c7e] text-white px-8 py-3 rounded-full text-lg font-bold transition-all hover:scale-105 shadow-xl">
+                            <i className="fa-brands fa-whatsapp text-2xl"></i>
+                            {lang === 'ar' ? 'تواصل واتساب' : 'WhatsApp'}
+                        </a>
+                        <a href="tel:+971566636483" className="inline-flex items-center gap-3 bg-[#B89564] hover:bg-[#8A6F4D] text-white px-8 py-3 rounded-full text-lg font-bold transition-all hover:scale-105 shadow-xl">
+                            <i className="fa-solid fa-phone text-2xl"></i>
+                            {lang === 'ar' ? 'اتصال مباشر' : 'Call Now'}
+                        </a>
+                    </div>
                 </div>
             </div>
 
