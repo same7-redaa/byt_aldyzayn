@@ -135,9 +135,9 @@ export const articles = [
         titleAr: "ثورة بديل الخشب وبديل الرخام في الديكور",
         titleEn: "Wood & Marble Alternative Revolution",
         img: "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=crop&q=80&w=800",
-        descAr: "غير مظهر منزلك مع بديل الخشب وبديل الرخام. نوفر ألواح بديل الرخام وفوم جدران بأشكال عصرية وطريقة تركيب احترافية.",
-        descEn: "Change your home look with Wood/Marble alternatives. We provide marble sheets and wall foam with professional installation.",
-        tags: ["بديل الخشب", "بديل الرخام", "الواح بديل الرخام", "فوم جدران", "تكسيات"],
+        descAr: "غير مظهر منزلك مع بديل الخشب وبديل الرخام الفاخر. نوفر ألواح بديل الرخام وفوم جدران بأشكال عصرية وطريقة تركيب احترافية تضاهي الرخام الطبيعي بتكلفة أقل.",
+        descEn: "transform your home with luxury Wood/Marble alternatives. We provide marble sheets and wall foam with professional installation matching natural marble at lower cost.",
+        tags: ["بديل الخشب", "بديل الرخام", "الواح بديل الرخام", "فوم جدران", "تكسيات", "تركيب بديل خشب", "تركيب بديل رخام"],
         contentAr: `
             <h2>لماذا بديل الخشب وبديل الرخام؟</h2>
             <p>أصبحت التكسيات الحديثة مثل <strong>بديل الخشب</strong> و<strong>بديل الرخام</strong> الخيار الأول للمصممين نظراً لجمالها وتكلفتها المعقولة ومقاومتها للعوامل الجوية.</p>
@@ -205,9 +205,9 @@ export const articles = [
         titleAr: "دليلك للصيانة العامة والأجهزة المنزلية",
         titleEn: "Guide to General Maintenance & Appliances",
         img: "https://images.unsplash.com/photo-1581578731548-c64695cc6958?auto=format&fit=crop&q=80&w=800",
-        descAr: "فريق متخصص في صيانة عامة، تصليح غسالات وثلاجات، صيانة مكيفات، وترميم حمامات بأعلى جودة.",
-        descEn: "Specialized team in general maintenance, washing machine/fridge repair, AC maintenance, and bathroom renovation.",
-        tags: ["صيانة عامة", "تصليح غسالات", "صيانة مكيفات", "ترميم حمامات", "تصليح ثلاجات"],
+        descAr: "فريق متخصص في صيانة عامة للمنازل، تصليح غسالات وثلاجات، صيانة مكيفات سبليت ومركزي، وترميم حمامات ومطابخ. خدمات صيانة شاملة بأعلى جودة.",
+        descEn: "Specialized team in home general maintenance, washing machine/fridge repair, split/central AC maintenance, and bathroom/kitchen renovation. Comprehensive high-quality services.",
+        tags: ["صيانة عامة", "تصليح غسالات", "صيانة مكيفات", "ترميم حمامات", "تصليح ثلاجات", "صيانة مباني", "سباك منازل", "كهربائي منازل"],
         contentAr: `
             <h2>الصيانة الوقائية والعلاجية</h2>
             <p>لا تنتظر تعطل الأجهزة تماماً. الصيانة الدورية تطيل عمر أجهزتك وتوفر المال. نقدم خدمات <strong>صيانة عامة</strong> شاملة للمنازل والفلل.</p>
