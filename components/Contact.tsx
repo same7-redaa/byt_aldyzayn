@@ -65,6 +65,16 @@ const Contact: React.FC<ContactProps> = ({ lang }) => {
 
                 <div className="flex items-center gap-6 group">
                   <div className="w-14 h-14 rounded-none bg-white/10 border border-white/20 flex items-center justify-center text-white text-xl group-hover:bg-white group-hover:text-[#B89564] transition-all duration-300">
+                    <i className="fa-solid fa-envelope"></i>
+                  </div>
+                  <div>
+                    <p className="text-[#EFE9E1]/70 text-sm mb-1 uppercase tracking-widest font-bold">Email</p>
+                    <a href="mailto:help@bayt-eldesign.com" className="text-white text-xl font-bold dir-ltr hover:text-[#B89564] transition-colors">help@bayt-eldesign.com</a>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-6 group">
+                  <div className="w-14 h-14 rounded-none bg-white/10 border border-white/20 flex items-center justify-center text-white text-xl group-hover:bg-white group-hover:text-[#B89564] transition-all duration-300">
                     <i className="fa-brands fa-whatsapp"></i>
                   </div>
                   <div>

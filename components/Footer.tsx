@@ -54,6 +54,10 @@ const Footer: React.FC<FooterProps> = ({ onServiceClick, onHomeClick, lang }) =>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
               {t.desc}
             </p>
+            <div className="flex items-center gap-2 text-gray-400 mb-2">
+              <i className="fa-solid fa-envelope text-[#B89564]"></i>
+              <a href="mailto:help@bayt-eldesign.com" className="hover:text-white transition-colors">help@bayt-eldesign.com</a>
+            </div>
           </div>
 
           <div>
