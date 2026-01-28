@@ -10,10 +10,13 @@ const Hero: React.FC<HeroProps> = ({ lang }) => {
   const t = {
     ar: {
       badge: 'نخبة التشطيبات الفاخرة',
-      title1: 'رواد خدمات',
-      title2: 'العزل والتشطيبات',
-      title3: 'الداخلية',
-      desc: 'نقدم حلولاً جذرية لتسربات المياه، عزل الأسطح، وأرقى أعمال الأصباغ والديكور في دبي والشارقة. جودة تليق بتطلعاتكم وإتقان يفوق توقعاتكم.',
+      title1: 'أهلاً وسهلاً بكم في',
+      title2: 'شركة بيت الديزاين',
+      title3: '',
+      desc: `نقدم خدمات متكاملة في مجال التشطيب الداخلي والترميم والصيانة العامة.
+نلتزم بأدق التفاصيل في تنفيذ الديكور المودرن والكلاسيك والنيو كلاسيك.
+✨ فنيون محترفون على أعلى مستوى
+✨ أسعار تنافسية تناسب الجميع`,
       cta1: 'اطلب معاينة مجانية',
       cta2: 'استعرض خدماتنا',
       happyClients: '+500 عميل سعيد',
@@ -21,10 +24,13 @@ const Hero: React.FC<HeroProps> = ({ lang }) => {
     },
     en: {
       badge: 'Elite Luxury Finishes',
-      title1: 'Leaders in',
-      title2: 'Insulation & Finishing',
-      title3: 'Services',
-      desc: 'We provide permanent solutions for water leaks, roof insulation, and the finest decorative paints in Dubai & Sharjah. Quality that meets your aspirations and mastery that exceeds expectations.',
+      title1: 'Welcome to',
+      title2: 'Bayt Al Design',
+      title3: 'Company',
+      desc: `We provide integrated services in interior finishing, renovation, and general maintenance.
+We master the finest details in Modern, Classic, and Neo-Classic decor.
+✨ Top-Level Professional Technicians
+✨ Competitive Prices for Everyone`,
       cta1: 'Request Free Inspection',
       cta2: 'View Our Services',
       happyClients: '+500 Happy Clients',
@@ -53,7 +59,7 @@ const Hero: React.FC<HeroProps> = ({ lang }) => {
             <div className="mb-6">{t.title1}</div>
             <div className="whitespace-nowrap"><span className="text-[#B89564]">{t.title2}</span> {t.title3}</div>
           </h2>
-          <p className="text-lg text-gray-300 leading-relaxed mb-10">
+          <p className="text-lg text-gray-300 leading-relaxed mb-10 whitespace-pre-line">
             {t.desc}
           </p>
 
