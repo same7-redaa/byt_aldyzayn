@@ -11,6 +11,7 @@ import FloatingWhatsApp from './components/FloatingWhatsApp';
 import ServicePage from './components/ServicePage';
 import ProjectsPage from './components/ProjectsPage';
 import ArticleDetail from './components/ArticleDetail';
+import PhotoGallery from './components/PhotoGallery';
 
 export type Language = 'ar' | 'en';
 
@@ -33,7 +34,11 @@ const Home: React.FC<{ lang: Language, navigateToProjects: () => void, navigateT
         <Gallery lang={lang} onViewAll={navigateToProjects} />
       </div>
 
-      <div id="contact" className="section-slant-top bg-[#2A2422] -mt-20 pt-32">
+      <div className="section-slant-top section-slant-bottom bg-[#2A2422] -mt-20 pt-32 pb-32">
+        <PhotoGallery lang={lang} />
+      </div>
+
+      <div id="contact" className="section-slant-top bg-[#1C1C1C] -mt-20 pt-32">
         <Contact lang={lang} />
       </div>
     </>
