@@ -5,6 +5,7 @@ import PaintingService from './services/PaintingService';
 import GypsumService from './services/GypsumService';
 import MaintenanceService from './services/MaintenanceService';
 import InteriorDesignService from './services/InteriorDesignService';
+import AirConditioningService from './services/AirConditioningService';
 import { Language } from '../App';
 
 interface ServicePageProps {
@@ -21,6 +22,7 @@ const ServicePage: React.FC<ServicePageProps> = ({ serviceId, onBack, lang }) =>
   // 3: Gypsum
   // 4: Maintenance
   // 5: Interior Design
+  // 6: Air Conditioning
 
   switch (serviceId) {
     case 0:
@@ -35,6 +37,8 @@ const ServicePage: React.FC<ServicePageProps> = ({ serviceId, onBack, lang }) =>
       return <MaintenanceService onBack={onBack} lang={lang} />;
     case 5:
       return <InteriorDesignService onBack={onBack} lang={lang} />;
+    case 6:
+      return <AirConditioningService onBack={onBack} lang={lang} />;
     default:
       return (
         <div className="min-h-screen flex items-center justify-center text-white">

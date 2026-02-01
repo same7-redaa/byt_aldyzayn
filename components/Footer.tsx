@@ -41,9 +41,9 @@ const Footer: React.FC<FooterProps> = ({ onServiceClick, onHomeClick, lang }) =>
               onClick={onHomeClick}
             >
               <img
-                src="/logo.png"
+                src="/logooo.jpeg"
                 alt="Bayt Al Design Logo"
-                className="h-10 w-auto object-contain"
+                className="h-14 w-auto object-contain rounded"
               />
               <div>
                 <h1 className="text-lg font-extrabold leading-none text-white">

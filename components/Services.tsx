@@ -87,6 +87,20 @@ export const getServicesData = (lang: Language) => [
       : ["Pro 3D Designs", "Smart Space Usage", "Luxury Material Selection", "Full Engineering Oversight"],
     image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=1200"
   },
+  {
+    id: 6,
+    slug: "air-conditioning-maintenance",
+    title: lang === 'ar' ? "صيانة التكييفات" : "Air Conditioning Maintenance",
+    desc: lang === 'ar' ? "خدمات صيانة وتركيب شاملة لجميع أنواع أجهزة التكييف." : "Comprehensive maintenance and installation for all AC types.",
+    icon: "fa-solid fa-snowflake",
+    fullDesc: lang === 'ar'
+      ? "نقدم خدمات صيانة تكييفات احترافية تشمل التكييف المركزي ومكيفات السبليت مع ضمان الكفاءة العالية."
+      : "We offer professional AC maintenance services including central and split units with high efficiency guarantee.",
+    features: lang === 'ar'
+      ? ["صيانة تكييف مركزي", "صيانة مكيفات سبليت", "تنظيف وتعقيم", "تعبئة غاز فريون"]
+      : ["Central AC Maintenance", "Split Units Service", "Cleaning & Sterilization", "Freon Gas Refill"],
+    image: "https://i.pinimg.com/736x/f8/51/69/f8516902abc46d2cef6a6094404ad6d8.jpg"
+  },
 ];
 
 interface ServicesProps {

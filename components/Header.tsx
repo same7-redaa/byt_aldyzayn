@@ -59,9 +59,9 @@ const Header: React.FC<HeaderProps> = ({ scrolled, onHomeClick, lang, onLangTogg
             onClick={() => handleNavClick()}
           >
             <img
-              src="/logo.png"
+              src="/logooo.jpeg"
               alt="Bayt Al Design Logo"
-              className="h-12 w-auto object-contain group-hover:scale-105 transition-transform"
+              className="h-16 w-auto object-contain group-hover:scale-105 transition-transform rounded"
             />
             <div>
               <h1 className="text-xl font-extrabold leading-none text-white tracking-wide">
@@ -113,7 +113,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled, onHomeClick, lang, onLangTogg
           {/* Sidebar Header */}
           <div className="flex items-center justify-between p-6 border-b border-[#B89564]/20">
             <div className="flex items-center gap-3">
-              <img src="/logo.png" alt="Logo" className="h-10 w-auto" />
+              <img src="/logooo.jpeg" alt="Logo" className="h-14 w-auto rounded" />
               <div>
                 <h2 className="text-lg font-bold text-white">
                   {lang === 'ar' ? 'بيت الديزاين' : 'Bayt Al Design'}
